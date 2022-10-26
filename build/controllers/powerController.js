@@ -18,7 +18,7 @@ class PowerController {
     list(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const power = yield database_1.default.query('SELECT *  FROM  asd_prueba.t_poder AS pod ORDER BY pod.podtipo');
+                const power = yield database_1.default.query('SELECT *  FROM  railway.t_poder AS pod ORDER BY pod.podtipo');
                 res.json(power);
             }
             catch (e) {

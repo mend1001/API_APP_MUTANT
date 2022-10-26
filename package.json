@@ -1,5 +1,5 @@
 {
-  "name": "ASD_APP_API",
+  "name": "asd-app-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
