@@ -1,10 +1,9 @@
 {
-  "name": "server",
+  "name": "ASD_APP_API",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
+
     "dev": "nodemon ./build",
     "start": "node ./build"
   },
