@@ -11,7 +11,3 @@ exports.DB_HOST = process.env.DB_HOST || 'localhost';
 exports.DB_DATABASE = process.env.DB_DATABASE || 'asd_prueba';
 exports.DB_PORT = process.env.DB_PORT || 3306;
 console.log(this.DB_DATABASE);
-console.log(this.DB_HOST);
-console.log(this.DB_PASSWORD);
-console.log(this.DB_PORT);
-console.log(this.DB_USER);
